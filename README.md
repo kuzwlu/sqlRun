@@ -135,6 +135,12 @@
     项目端口为1000
     管理员后台账号：admin   密码：123456
         
+## 可能出现问题：
+    1、dynamic-datasource-boot-starter依赖包找不到，可至
+    https://github.com/kuzwlu/dynamic-datasource-boot-starter下载成品依赖包
+    放入你的maven仓库，路径为:<你的maven仓库路径>/rainbow/kuzwlu/dynamic-datasource-boot-starter/1.2/
+    
+    2、注意数据源是否和表、配置文件绑定，出现问题可删除t_sys_user除admin以外的用户
 
 ## 效果图：
 ### 登录：
