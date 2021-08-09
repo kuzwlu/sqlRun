@@ -2,7 +2,7 @@
 ## 简介
     基于Springboot和dynamic-datasource-boot-starter多数据源的SQL代码执行器
     
-    1、SpringBoot 2.4.0，
+    1、SpringBoot 2.4.0
     
     2、dynamic-datasource-boot-starter 1.2 
         <dependency>
