@@ -21,11 +21,19 @@
     7、AOP切面，使用@Log注解，将操作记录到数据库中
     8、统一API风格
     9、CORS跨域
+    10、侧栏菜单管理（分角色权限显示）
+    11、角色管理
+    12、权限管理
+    13、日志记录
+    14、数据源管理（支持在线添加，分角色显示）
+    15、使用开源编辑器CodeMirror,代码支持补全,颜色,高度,风格
+    16、执行后即可显示结果，保留用户最后10条执行代码
 
 
 ## 使用方法
 
 ## 配合前端项目使用 项目地址：https://github.com/kuzwlu/sqlRun-HTML
+    sqlRun项目提供后端接口，sqlRun-HTML提供前端显示
 
 ### 1、application.yml详解 (配置数据源,log目录,Mapper包名)
     logging:
@@ -123,6 +131,32 @@
         minEvictableIdleTimeMillis: 300000
         validationQuery: SELECT 1 FROM DUAL
 
-### 2、下拉后可直接打成jar包运行  API接口端口为8080
+### 2、下拉后可直接打成jar包运行  
+    项目端口为1000
+    管理员后台账号：admin   密码：123456
+        
 
 ## 效果图：
+### 登录：
+![](https://i.loli.net/2021/08/09/d5raEWRyAmzGMDp.png)
+### 主页：
+![](https://i.loli.net/2021/08/09/TVO7HX9cRKbGoLZ.png)
+### 用户列表
+![](https://i.loli.net/2021/08/09/YN9RxmMHB4rZSXw.png)
+### 添加用户
+![](https://i.loli.net/2021/08/09/UC83maKR6YJM4ri.png)
+### 数据源列表
+![](https://i.loli.net/2021/08/09/VMAmXyhx9UprfZt.png)
+### 添加数据源
+![](https://i.loli.net/2021/08/09/iqL8CfvHUMpmJKe.png)
+### SQL代码执行器
+![](https://i.loli.net/2021/08/09/pmRbDgoGIWU7Y6y.png)
+### 代码补全
+![](https://i.loli.net/2021/08/09/mk9W2zjMgcGHhl1.png)
+### 执行结果
+![](https://i.loli.net/2021/08/09/iH5W6NFvmtMfdLA.png)
+### 执行出错--提示
+![](https://i.loli.net/2021/08/09/81vLKarWosXAfjg.png)
+### 记录log
+![](https://i.loli.net/2021/08/09/LvIH2E98XsogWxA.png)
+![](https://i.loli.net/2021/08/09/ZO2lEBdfr3bWFo5.png)
